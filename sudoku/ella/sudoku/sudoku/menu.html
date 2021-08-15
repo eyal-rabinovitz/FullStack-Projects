@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="menu.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="menuOnLoad()">
+    <ul>
+        <li><button id="logoutBtn" onclick="logout()"> logout </button></li>
+    </ul>
+
+    <div id="bodyDiv">
+
+        <div id="title">
+            <br />
+            <h1> Welcome <p id="userName"></p> </h1>
+            
+        </div>
+        <div id="level">
+            <h2> Level Difficulty</h2>
+
+            <button onclick="setLevel(0.25)" id="easyBtn"> EASY </button>
+            <button onclick="setLevel(0.50)" id="mediumBtn"> MEDIUM </button>
+            <button onclick="setLevel(0.75)" id="hardBtn"> HARD </button>
+
+        </div>
+
+        <script src="sudoku.js"></script>
+
+    </div>
+
+</body>
+</html>

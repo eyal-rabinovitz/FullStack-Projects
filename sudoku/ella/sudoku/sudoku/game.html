@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="game.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="gamePage()">
+    <div id="navBar">
+        <ul>
+        <li><button id="logoutBtn" onclick="logout()"> logout </button></li>
+        <li><button id="BackBtn" onclick="back()"> Back </button></li>
+        <li style="float:right"><h1> SUDOKU </h1></li>
+
+        </ul>
+    </div>
+
+    <div id="bodyDiv">
+        <div id="title">
+            <p>Level:<p></p></p>
+            <p>time:<p></p></p>
+            <p>
+                music:
+                <!-- <button type="buttons"></button> -->
+            </p>
+            <h2> Good Luck </h2>
+        </div>
+
+        <div id="sudokuTable">
+            <table>
+                <tr>
+                    <td id="1"></td>
+                    <td id="2"></td>
+                    <td id="3" class="bigBorder"></td>
+                    <td id="4"></td>
+                    <td id="5"></td>
+                    <td id="6" class="bigBorder"></td>
+                    <td id="7"></td>
+                    <td id="8"></td>
+                    <td id="9"></td>
+                </tr>
+                <tr>
+                    <td id="10"></td>
+                    <td id="11"></td>
+                    <td id="12" class="bigBorder"></td>
+                    <td id="13"></td>
+                    <td id="14"></td>
+                    <td id="15" class="bigBorder"></td>
+                    <td id="16"></td>
+                    <td id="17"></td>
+                    <td id="18"></td>
+                </tr>
+                <tr class="bigBorderB">
+                    <td id="19"></td>
+                    <td id="20"></td>
+                    <td id="21" class="bigBorder"></td>
+                    <td id="22"></td>
+                    <td id="23"></td>
+                    <td id="24" class="bigBorder"></td>
+                    <td id="25"></td>
+                    <td id="26"></td>
+                    <td id="27"></td>
+                </tr>
+                <tr>
+                    <td id="28"></td>
+                    <td id="29"></td>
+                    <td id="30" class="bigBorder"></td>
+                    <td id="31"></td>
+                    <td id="32"></td>
+                    <td id="33" class="bigBorder"></td>
+                    <td id="34"></td>
+                    <td id="35"></td>
+                    <td id="36"></td>
+                </tr>
+                <tr>
+                    <td id="37"></td>
+                    <td id="38"></td>
+                    <td id="39" class="bigBorder"></td>
+                    <td id="40"></td>
+                    <td id="41"></td>
+                    <td id="42" class="bigBorder"></td>
+                    <td id="43"></td>
+                    <td id="44"></td>
+                    <td id="45"></td>
+                </tr>
+                <tr class="bigBorderB">
+                    <td id="46"></td>
+                    <td id="47"></td>
+                    <td id="48" class="bigBorder"></td>
+                    <td id="49"></td>
+                    <td id="50"></td>
+                    <td id="51" class="bigBorder"></td>
+                    <td id="52"></td>
+                    <td id="53"></td>
+                    <td id="54"></td>
+                </tr>
+                <tr>
+                    <td id="55"></td>
+                    <td id="56"></td>
+                    <td id="57" class="bigBorder"></td>
+                    <td id="58"></td>
+                    <td id="59"></td>
+                    <td id="60" class="bigBorder"></td>
+                    <td id="61"></td>
+                    <td id="62"></td>
+                    <td id="63"></td>
+                </tr>
+                <tr>
+                    <td id="64"></td>
+                    <td id="65"></td>
+                    <td id="66" class="bigBorder"></td>
+                    <td id="67"></td>
+                    <td id="68"></td>
+                    <td id="69" class="bigBorder"></td>
+                    <td id="70"></td>
+                    <td id="71"></td>
+                    <td id="72"></td>
+                </tr>
+                <tr>
+                    <td id="73"></td>
+                    <td id="74"></td>
+                    <td id="75" class="bigBorder"></td>
+                    <td id="76"></td>
+                    <td id="77"></td>
+                    <td id="78" class="bigBorder"></td>
+                    <td id="79"></td>
+                    <td id="80"></td>
+                    <td id="81"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="submit">
+            <button id="againBtn" onclick="again()"> Again </button>
+            <button id="finishBtn" onclick="finish()"> Finish </button>
+        </div>
+
+        <script src="sudoku.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="menu.css">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body onload="menuPageOnLoad()">
+    <div id="navBar">
+        <ul>
+            <li><button id="logoutBtn" onclick="logout()"> logout </button></li>
+            <li style="float:right"><p id="titleNavBar"> SUDOKU </p></li>
+        </ul>
+    </div>
+
+    <div id="adMainDiv">
+        <div id="adDiv1">
+            <button onmouseover="adFun()" id="adBtn"> Win 1,000,000 $ <br /> Press here </button>
+        </div>
+
+        <div id="adDiv2">
+
+        </div>
+
+        <div id="adDiv3">
+
+        </div>
+
+        <div id="adDiv4">
+
+        </div>
+    </div>
+
+    <div id="bodyDiv">
+
+        <div id="title">
+            <br />
+            <h1> Welcome <p id="userName"></p> </h1>
+        </div>
+
+        <div id="level">
+            <h2> Level Difficulty</h2>
+            <button onclick="setLevel(0.25)" id="easyBtn"> EASY </button>
+            <button onclick="setLevel(0.50)" id="mediumBtn"> MEDIUM </button>
+            <button onclick="setLevel(0.75)" id="hardBtn"> HARD </button>
+        </div>
+
+
+
+        <script src="sudoku.js"></script>
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+
+</body>
+</html>

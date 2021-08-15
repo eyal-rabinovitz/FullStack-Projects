@@ -1,0 +1,53 @@
+﻿
+body {
+    /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/800px-Sudoku-by-L2G-20050714.svg.png");
+    background-blend-mode: saturation;
+    background-size: cover;*/
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+    li #titleNavBar {
+        color: blanchedalmond;
+        font-size: 16px;
+        padding: 13.3333px;
+        margin: 0px;
+    }
+
+#bodyDiv {
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    min-width: 250px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+    width: 50%;
+    min-width: 300px;
+}
+
+#title {
+    color: rgb(207, 155, 94);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: normal;
+    line-height: 60px;
+    margin: 10px 0 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    margin: 10px 0 24px;
+    text-align: center;
+    margin-top: 60px;
+}
+

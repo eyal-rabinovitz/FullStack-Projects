@@ -1,0 +1,75 @@
+﻿body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/800px-Sudoku-by-L2G-20050714.svg.png");
+    background-blend-mode: saturation;
+    background-size: cover;
+}
+
+#bodyDiv {
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+    min-width: 250px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+    border: 5px solid rgb(202, 25, 187);
+    border-radius: 5px;
+    height: 450px;
+    width: 50%;
+    min-width: 300px;
+    box-shadow: 10px 10px 5px;
+}
+
+#title {
+    color: rgb(88, 209, 240);
+    font-family: 'Righteous', cursive;
+    font-size: 65px;
+    font-weight: normal;
+    line-height: 60px;
+    margin: 10px 0 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #000;
+    margin: 10px 0 24px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#pName, #pPassword {
+    text-align: left;
+    padding-left: 36.25px;
+    margin-top: 40px;
+    margin-bottom: 4px;
+}
+
+
+#inputName, #inputPassword {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#message {
+    color: red;
+}
+
+button {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(39, 36, 197);
+    color: cornsilk;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(46, 12, 139);
+}
